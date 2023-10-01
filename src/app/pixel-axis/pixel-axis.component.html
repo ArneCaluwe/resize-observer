@@ -1,0 +1,5 @@
+<div *ngIf="nodes$ | async as nodes">
+  <div *ngFor="let node of nodes" [style.top.px]="node" class="indicator">
+    {{ node }}
+  </div>
+</div>

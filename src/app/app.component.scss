@@ -1,0 +1,18 @@
+.panel {
+  width: 500px;
+  height: 300px;
+  padding: 5px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+
+  overflow: scroll;
+  resize: both;
+
+  display: flex;
+  flex-direction: row;
+
+  app-pixel-axis {
+    display: block;
+    flex-grow: 1;
+  }
+}

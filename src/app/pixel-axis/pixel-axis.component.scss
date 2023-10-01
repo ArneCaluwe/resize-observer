@@ -1,0 +1,15 @@
+:host {
+  min-width: 2em;
+  height: inherit;
+  overflow: hidden;
+
+  .indicator {
+    position: absolute;
+    font-size: small;
+    color: lightgrey;
+    text-justify: center;
+  }
+  .indicator::before {
+    content: "◦";
+  }
+}
